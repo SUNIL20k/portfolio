@@ -1,0 +1,266 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body{
+    background-color: rgb(0, 12, 87);
+}
+.sticky{
+    background-color: rgb(0, 12, 87);
+    position: sticky;
+    top: 0;
+    
+}
+
+.nav-name{
+    color: rgb(147, 184, 233);
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-name:hover{
+    color: white;
+    font-size: 18px;
+}
+.portfolio{
+    color: rgb(147, 184, 233);
+    font-size: 25px;
+    font-weight: 500;
+}
+.portfolio:hover{
+    color: rgb(114, 183, 248)
+    font-size: 25px;
+    font-weight: 500;
+}
+.my-text{
+    color: white;
+    padding: 50px 50px; 
+}
+.my-text>h2{
+    color: #008069;
+}
+.my-text-1{
+    color: #b80046;
+}
+.my-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-fit: contain;
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+background: #56ace1;
+box-shadow: inset 5px 5px 11px #4386b0,
+            inset -5px -5px 11px #69d2ff;
+}
+.link1{
+     font-size: 25px;
+     color:rgb(0, 12, 87);
+}
+.link2{
+        font-size: 25px;
+        color: #008069; 
+}
+.link3{
+    font-size: 25px;
+    color: #b80046; 
+}
+.link4{
+    font-size: 25px;
+    color: #0d6094; 
+}
+.home{
+    margin: 50px 50px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(31, 163, 234, 0.5);
+}
+.my-img-1{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-fit: contain;
+}
+.about{
+    margin: 50px 50px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(31, 163, 234, 0.5);
+}
+.my-skill{
+    justify-content: center;
+    color: white;
+    text-align: center;
+    height: 300px;
+}
+.my-skill-1{
+     margin: 80px 0px;
+}
+.botton{
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(160, 222, 255, 0.9);
+    font-weight: bold;
+    margin: 15px 0px;
+}
+.botton:hover{
+    box-shadow: 0px 0px 20px rgba(160, 222, 255, 0.9); 
+}
+
+.btns{
+    padding: 6px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #56ace1;
+}
+.btns:hover{
+    box-shadow: 0px 0px 20px rgba(160, 222, 255, 0.9); 
+
+}
+.project-name{
+    text-align: center;
+    margin: 50px 0px;
+    color: white;
+}
+.project-name>h1{
+    color: coral;
+}
+.and{
+    color: chartreuse;
+}
+.my-project{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.card{
+    width: 280px;
+    background-color: rgb(0, 12, 87);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(31, 163, 234, 0.5);
+}
+.card:hover{
+    border: 1
+    px solid black;
+}
+.card>h1{
+    margin: 20px 0px;
+}
+.pro-imgs{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.pro-btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+.ser-card{
+    width: 280px;
+    box-shadow: 0px 0px 20px rgba(31, 163, 234, 0.5);
+    background-color: rgb(0, 12, 87);
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    
+}
+.service{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 50px 50px;
+}
+.review{
+    box-shadow: 0px 0px 20px rgba(31, 163, 234, 0.5);
+    padding: 10px;
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    overflow-x: scroll;
+}
+.rev-card{
+    width: 250px;
+    box-shadow: 0px 0px 5px rgba(31, 163, 234, 0.5);
+    padding: 15px;
+    margin: 10px;
+}
+.rev-pro{
+    display: flex;
+}
+.rev-name{
+
+    margin: 0px 20px;
+}
+.rev-name>h1{
+    font-size: 20px;
+}
+.rev-name>h2{
+    font-size: 22px;
+}
+.rev-pic{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.contact{
+    background-color: #00000098;
+    height: 400px;
+    padding: 20px 0px;
+}
+.con-text>h1{
+    color: rgb(30, 125, 250);
+    margin: 50px 0px;
+}
+.con-text>a{
+    font-size: 26px;
+}
+.con-link{
+    margin: 50px;
+}
+.con-icons{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 50px 450px;
+}
+.icon-con-1{
+    font-size: 40px;
+    color:rgb(28, 54, 223);
+}
+.icon-con-2{
+       font-size: 40px;
+       color: #008069; 
+}
+.icon-con-3{
+   font-size: 40px;
+   color: #b80046; 
+}
+.icon-con-4{
+   font-size: 40px;
+   color: #0d6094; 
+}
+ 
