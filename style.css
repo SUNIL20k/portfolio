@@ -2,6 +2,9 @@
 body{
     background-color: rgb(0, 12, 87);
 }
+.navbar{
+    z-index: 10;
+}
 .sticky{
     background-color: rgb(0, 12, 87);
     position: sticky;
@@ -198,6 +201,12 @@ box-shadow: inset 5px 5px 11px #4386b0,
     justify-content: space-between;
     height: fit-content;
     overflow-x: scroll;
+}
+.review::-webkit-scrollbar{
+    display: flex;
+    width: 0px;
+    height: 0px;
+
 }
 .rev-card{
     width: 250px;
